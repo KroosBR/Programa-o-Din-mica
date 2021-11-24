@@ -37,7 +37,7 @@ def troco(valor_compra, moedas):
 entrada = list(map(int, input().split()))
 moedas = list(map(int, input().split()))
 valor_compra, qtd_moedas = entrada
-tb = [-1]*10007
+tb = [-1]*(valor_compra + 1)
 tb[0] = 1   # caso base
 
 resposta = troco(valor_compra, moedas)
