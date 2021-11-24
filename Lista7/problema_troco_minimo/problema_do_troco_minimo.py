@@ -1,4 +1,3 @@
-import math
 def trocominimo_dp(k):
     global tabela, valores, N
     if k == 0:
